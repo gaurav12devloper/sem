@@ -1,0 +1,130 @@
+Practical4: To study and implementation of Storage as a Service
+Step 1: Sign into the Google Drive website with your Google account.
+Step 2: Add files to your drive.
+Step 3: Change the wayyour files are displayed.
+Step 4: Use the navigation bar on the left side to browse your files.
+Step 5: Search for files.
+Step 6: Click the NEW button.
+        Step 7: Create a new file.
+Step 8: Name the file.
+Step 9: Edit your document.
+Step 10: Export and convert the file.
+Step 10: Export and convert the file.
+Step 11: Share your document.
+Other Capabilities
+1.	Edit photos
+2.	Listen Music
+3.	Do drawings
+4.	Merge PDFs
+
+
+
+PRACTICAL NO: 5: To Study Cloud IdentityManagement (AWS)
+Step 1: Go to https://www.aws.amazon.com click on “Create an AWS Account"  Enter details in the required field  click on “Continue”
+Step 2 : Select the account type and complete the fields below  click on “Create Account and continue”  Sign out .
+Step 3: Click on “My Account” and go to “AWS Management Console”  Sign In with your account as a root user.
+Step 4 : After signing in , the AWS Management Console home page is displayed Click on All Services  On Security Identity and compliance click on IAM
+Step 5 : Complete all Security status steps
+Manage Security Credentials  Get Started with IAM Users
+Step 6 : click on Add User  Set User Details  Next : Permission
+
+Step 7: Click on Attach existing policies directly and select Administrator Access and AmazonAPI Gateway  click on Next till 4th step  Download the csv file wherein Access key ID and login URL of users is stored.
+Step 8: Now login as a user now
+Step 9: Go to My security credentials  click on Create access key  Download secret access key .csv file 
+Step 10: Go to users , the details w.r.t attached policies is displayed here
+
+
+
+
+
+PRACTICAL NO : 6 AIM:To Study Cloud Security Management (AWS)
+Step 1: Go to https://www.aws.amazon.com click on “Create an AWS Account"  Enter details in the required field  click on “Continue” 
+Step 3: 
+ Step 4 : After signing in , the AWS Management Console home page is displayed
+Click on All Services  On Security Identity and compilance click on IAM
+lick on “My Account” and go to “AWS Management Console”  Sign In with your account as a root user.
+Step 5 : Complete all Security status steps
+□	click on Delete your root access  Manage Security Credentials  Get Started with IAM Users
+Step 6 : click on Add User
+□	Set User Details
+□	Next : Permission
+Step 7: Click on Attach existing policies directly and select AdministratorAccess and AmazonAPIGateway  click on Next till 4th step  Download the csv file wherein Access key ID and login URL of users is stored
+Step 8: Now login as a user now
+Step 9: Go to My security credentials  click on Create access key  Download secret access key .csv file
+
+Step 10: Now to assign MFA, click on Assign MFA Device click on Virtual MFA Device  click on Show QR Code and scan it via Google Authenticator app from your Mobile phone  enter two MFA codes below. Our MFA is assigned
+Step 11: Now go to policies and click on AdministratorAccess and on policy action button click on attach.
+Step 12: Go to users and open it
+
+
+
+PRACTICAL NO : 7
+AIM:Write a program for Web feed.
+STEP 1: Install the software “RSS Builder”.
+STEP 2: Fill it.
+STEP 3: Open the software Visual studio 2010 Do the following steps:
+STEP 4: Now copy that rss file which was saved with .xml extension inside your website folder.
+STEP 5: Add a hyperlink to the rss.xml file <ahref="rss.xml">Click here for feed</a>
+STEP 6: Run the page.
+1. Google Chrome:
+
+
+
+
+PRACTICAL NO 8
+AIM: Study and Implementation of SSO
+Step 1:	Create a free account in Auth0
+1.	Go to Auth0 and click Sign Up.
+2.	Use Google, GitHub or Microsoft Account to login.
+Step 2: Create Account: Account type: Personal, Role : Developer, Project type: as required.
+Step 3: Auth0 account will be created.(below is the dashboard view)
+Step 4: Click on create new user.User will be created.
+Step 5: Go to Welcome to Auth0 window.Go to Test new user login.Enter your Username and password.
+Step 6: Configure social connections
+Step 7: Go to Connectionsocialtwitter and enter the details
+Step 8: Click on Create Application.--> Regular Web App.--> Select the technology for your web app---> Java( we have selected Java here)
+Step 9: App will be created. Download the sample.
+Step 10: Go to applications settings and Copy the callback URL.
+Applications TestSY- Settings- Allowed Callback URLs- http://localhost:3000/callback And paste it into Allowed callback URL’s
+Step 11: In command prompt switch to the folder containing the downloaded and extracted folder(01-login)Open Command prompt:Type gradlew clean appRun command.
+Step 12: Type http://localhost:3000/callback in the browser.
+Step 13: Now go to the activity and check the user, logins and new sign-ups.
+
+
+
+
+PRACTICAL NO :9
+AIM :User Management in cloud. + SaaS
+Step 1 : Copy owncloud in C:\wamp\www
+Step 2 : Start wamp server and click on phpMyAdmin .
+Step 3 :click on Database and create new Database : owncloud.
+Step 4 : Click on Recently Created Database, then Click on Privilege and “ADD USER”.
+Step 5 : Fill required data ,Select Global Privilege and click on “Go”.
+Step 6 : In the URL bar type http://localhost/owncloud/
+Enter the username , password click on Finish Setup .
+Step 7 : now click on your username an select Users
+Step 8 : Add Users
+Assign Groups and Quota
+Share a File to useR
+Step 9: logout from admin and login as the user you added (logging as Asmi) red with Anjali):
+Step 10: Add a new file and share with any of the other user (here i had shared with Anjali):
+Step 11: logout from Asmi and login as the user you added (logging as Anjal
+
+
+
+
+PRACTICAL NO: 10
+1)	goto aws.amazon.com
+2)	click on “My Account”
+3)	select “AWS management console” and click on it
+4)	Give Email id in the required field
+5)	if you are registering first time then select “I am a new user” radio button 
+6)	click on “sign in using our secure server” button
+7)	Again, go to “My Account” select “AWS management console”   again by entering the user name and valid password (check “I am returning user and my password is” radio button) Now you are logged in as a Root User
+AWS service-→ All Services tab-→EC2
+Getting Started with the AWS Management Console Step 1: Set up and log into your AWS account
+Step 2: Launch an Amazon EC2 instance 
+Step 3: Configure your instance
+Step 4: Connect to your instance 
+Step 5: Terminate Instances
+
