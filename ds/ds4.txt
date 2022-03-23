@@ -32,20 +32,3 @@ cl <- kmeans(iris[,-5], 8)
  dis <- dist(iris[,-5])^2 
 sil = silhouette (cl$cluster, dis)
 plot(sil, main = "Clustering Data with Silhoutte plot using 8 Clusters", col = c("cyan", "blue", "orange", "yellow", "red", "gray", "green", "maroon"))
-install.packages("factoextra")
-library(factoextra)
-install.packages("clustertend")
-library(clustertend)
-genx<-function(x){
-runif(length(x), min(x), (max(x)))
-}
-random_df <- apply(iris[,-5], 2, genx)
-install.packages("factoextra")
-library(factoextra)
-install.packages("clustertend")
-library(clustertend)
-genx<-function(x){
-runif(length(x), min(x), (max(x)))
-}
-random_df <- apply(iris[,-5], 2, genx)graph = FALSE)
-res$hopkins_stat
