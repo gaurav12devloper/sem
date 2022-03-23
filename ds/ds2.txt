@@ -1,0 +1,47 @@
+use beginnersbook
+db
+show dbs
+db.user.insert({name:"gaurav",age:21})
+show dbs
+db.dropDatabase()
+show dbs
+use bbookdb
+db.bbook.insert({ name:"gaurav", age:18, website:"www.studyfame.com" })
+db.bbook.insert({ name:"ak", age:25, website:"www.few.com" })
+db.bbook.insert({ name:"sanjeev", age:35, website:"www.fb.com" })
+db.bbook.find()
+show collections
+db.createCollection("students")
+db.createCollection("teachers",{capped:true,size:1024})
+db.teachers.drop()
+show collections
+db.bbook.insert({ name:"john", age:35, website:"www.fb.com",email:"admin@beginnersbooks.com",course:[{name:"MongoDB",duration:7},{name:"Java",duration:14}] })
+db.bbook.find()
+var beginners=[{"StudentId":1001,"StudentName":"Steve","age":30},{"StudentId":1002,"StudentName":"Negan","age":30},{"StudentId":1003,"StudentName":"Rick","age":31}];
+db.students.insert(beginners);
+db.students.find()
+db.students.find().forEach(printjson)
+db.students.find({StudentName:"Steve"}).pretty()
+db.students.find({"age":{$gt:30}}).pretty()
+db.students.find({"StudentId":{$lt:1003}}).pretty()
+db.students.find({"StudentName":{$ne:"Negan"}}).pretty()
+db.bbook.insert({name:"Akansha",age:21,website:"www.beginnersbook.com"})
+db.bbook.insert({ name:"Tom", age:18, website:"www.google.com" })
+db.bbook.update({"name":"Tom"},{$set:{"name":"John"}})
+db.bbook.find().pretty()
+db.bbook.update({"name":"Tom"},{$set:{"name":"John"}},{multi:true})
+db.bbook.save({"_id" : ObjectId("61e6232115344ea035aebeff"),"name":"John","age":25})
+db.bbook.find().pretty()
+db.bbook.remove({"name":"John"})
+db.bbook.find().pretty()
+db.bbook.find().pretty()
+db.bbook.remove({"age":18},1)
+db.bbook.find().pretty()
+db.students.find().pretty()
+db.students.find({},{"_id":0,"StudentId":1})
+db.students.find({},{"_id":0,"StudentName":0,"age":0})
+db.students.find({"StudentId":{$gt:1001}}).pretty()
+db.students.find({"StudentId":{$gt:1001}}).limit(1).pretty()
+db.students.find({"StudentId":{$gt:1001}}).limit(1).skip(1).pretty()
+db.students.find({},{"_id":0,"StudentId":1}).sort({"StudentId":-1})
+db.students.find({},{"_id":0,"StudentId":1}).sort({"StudentId":1})
